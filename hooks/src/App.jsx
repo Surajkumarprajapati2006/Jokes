@@ -1,7 +1,7 @@
-
 import './App.css'
 import Counter from './Counter.jsx';
 import Jokes from './components/Jokes.jsx';
+import Todo from './components/Todo.jsx';
 
 function App() {
 
@@ -9,11 +9,18 @@ function App() {
     <>
     {/* <h1>State in react</h1> */}
     {/* <Counter/> */}
-    <h1>Random jokes...</h1>
+    {/* <h1>Random jokes...</h1> */}
+    <Todo/>
 
-    <Jokes/>
+    {/* <Jokes/> */}
+
+
+ 
     </>
   )
 }
 
 export default App;
+
+
+
